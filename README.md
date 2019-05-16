@@ -13,12 +13,21 @@ connect keyboard data to pin 3
 https://en.wikipedia.org/wiki/PS/2_port
 
 you need to modify ksend function
-change usb[2] value to any key you want to send
+
+change usb[2] value to any key you want to send.
+
 see Keytab.h 
+https://github.com/fmented/PS2KeyboardMacro/blob/master/macros/Keytab.h
+
+
 if you need a modifier key use:
 usb[0]=CTRL; or usb[0]=ALT;
+
+
 if you need more than one modifier, use:
 usb[0]=CTRL+SHIFT;
+
+
 to send a keystroke use:
 sendKey();
 make sure to use releaseKey(); 
