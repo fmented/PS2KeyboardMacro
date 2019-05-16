@@ -59,7 +59,7 @@ Serial.begin( 9600 );
 
 void ksend(uint16_t x){
 
-switch (c){
+switch (x){
         case (283):   //esc
         //do something
         break;
