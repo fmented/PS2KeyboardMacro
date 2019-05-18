@@ -7,6 +7,7 @@ Requirements:
     Flip (for Windows),
     https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/FLIP
     Keyboard firmware,
+    http://www.tinkernut.com/demos/arduino_hid/arduino_hid.zip
 
 connect keyboard clock to pin 2
 connect keyboard data to pin 3
